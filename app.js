@@ -40,7 +40,7 @@ const checkWinner = ()=>
    
     for(let winner of win)
     {
-        console.log(winner[0]&"-",winner[1],winner[2]);
+        console.log(winner[0],winner[1],winner[2]);
         let p1Val = boxes[winner[0]].innerText;
         let p2Val = boxes[winner[1]].innerText;
         let p3Val = boxes[winner[2]].innerText;
