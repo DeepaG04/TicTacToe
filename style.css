@@ -20,7 +20,7 @@ display: flex;
     justify-content: center;
     align-items: center;
     gap: 1.5vmin;    
-    margin: 4 vmin;
+    margin: 8vmin;
 }
 .box{
     height: 18vmin;
@@ -29,7 +29,8 @@ display: flex;
     border: none;
     font-size: 8vmin;
     color: #DD1C1A;
-    background-color: #F0C808;    
+    background-color: #F0C808;
+
 }
 #res{
     padding: 1rem;
@@ -37,4 +38,18 @@ display: flex;
     border-radius: 1rem;
     font-size: 1.25rem;
     background-color: #FFF1D0;
+}
+
+.msgContainer{
+margin: 2vmin;
+}
+#msg{
+    text-align: center;
+    color: #DD1C1A;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:x-large;
+    font-style: italic;
+}
+.hide{
+    display: none;
 }
